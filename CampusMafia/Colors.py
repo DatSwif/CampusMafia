@@ -1,0 +1,14 @@
+BLACK = (0, 0, 0)
+WHITE = (255, 255, 255)
+GRAY127 = (127, 127, 127)
+ButtonBorderPressed = (255, 219, 185)
+ButtonBackgroundPressed = (228, 182, 140)
+ButtonBorderHovered = (190, 160, 116)
+ButtonBackgroundHovered = BLACK
+ButtonBorderDefault = (151*1.3//1, 135*1.3//1, 119*1.3//1)
+ButtonBackgroundDefault = BLACK
+RED = (255, 0, 0)
+RED127 = (127, 0, 0)
+PURPLE = (255, 171, 251)
+YELLOW = (251, 242, 54)
+ORANGE = (255, 201, 154)

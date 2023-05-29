@@ -1,0 +1,116 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>d7097147-4013-43b0-9ed2-a6999b9cda59</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>CampusMafia.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>CampusMafia</Name>
+    <RootNamespace>CampusMafia</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Accessory.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Button.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CampusMafia.py" />
+    <Compile Include="Character.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Colors.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Enemy.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entity.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Hitbox.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="InGame.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="InGameMenu.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="InGameUI.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Item.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Keyboard.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Level.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="LevelsMenu.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MainMenu.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Mouse.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Note.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="OptionsMenu.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Pickup.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Player.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Projectile.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ScrSwitcher.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TextBox.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Wall.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Weapon.py">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="assets\" />
+    <Folder Include="assets\fonts\" />
+    <Folder Include="assets\music\" />
+    <Folder Include="assets\images\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>
